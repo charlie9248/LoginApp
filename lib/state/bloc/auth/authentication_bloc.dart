@@ -1,7 +1,7 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
 
-import '../../data/employees.dart';
-import '../../models/Employee.dart';
+import '../../../data/employees.dart';
+import '../../../models/Employee.dart';
 import 'authentication_event.dart';
 import 'authentication_state.dart';
 

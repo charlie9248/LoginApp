@@ -4,11 +4,11 @@ import 'package:device_info_plus/device_info_plus.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:munch_login_application/state/bloc/authentication_bloc.dart';
+import 'package:munch_login_application/state/bloc/auth/authentication_bloc.dart';
 
-import 'package:munch_login_application/state/bloc/employees_bloc.dart'; // Import other blocs if needed
+import 'package:munch_login_application/state/bloc/emp/employees_bloc.dart'; // Import other blocs if needed
 import 'package:munch_login_application/constants/app_colors.dart';
-import 'package:munch_login_application/state/bloc/employees_state.dart';
+import 'package:munch_login_application/state/bloc/emp/employees_state.dart';
 import 'package:munch_login_application/models/Employee.dart';
 import 'package:munch_login_application/presentation/widgets/button_select_user.dart';
 import 'package:munch_login_application/presentation/widgets/employee_icon.dart';

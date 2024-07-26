@@ -1,6 +1,7 @@
 
 
-import 'package:munch_login_application/state/bloc/authentication_state.dart';
+
+import 'authentication_state.dart';
 
 sealed class AuthenticationEvent {
   const AuthenticationEvent();

@@ -4,13 +4,13 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:grouped_list/grouped_list.dart';
 import 'package:munch_login_application/constants/app_colors.dart';
 import 'package:munch_login_application/constants/app_tex_styles.dart';
-import 'package:munch_login_application/state/bloc/employees_bloc.dart';
-import 'package:munch_login_application/state/bloc/employees_state.dart';
+import 'package:munch_login_application/state/bloc/emp/employees_bloc.dart';
+import 'package:munch_login_application/state/bloc/emp/employees_state.dart';
 import 'package:munch_login_application/presentation/widgets/initails_widget.dart';
 import 'package:munch_login_application/presentation/widgets/employee_icon.dart';
 import '../../constants/app_string_constant.dart';
 import '../../models/Employee.dart';
-import '../../state/bloc/employees_event.dart';
+import '../../state/bloc/emp/employees_event.dart';
 
 class EmployeeList extends StatelessWidget {
   const EmployeeList({super.key});

@@ -1,7 +1,7 @@
 
 import 'package:equatable/equatable.dart';
 
-import '../../models/Employee.dart';
+import '../../../models/Employee.dart';
 
 enum EmployeesStatus { initial, success, failure }
 

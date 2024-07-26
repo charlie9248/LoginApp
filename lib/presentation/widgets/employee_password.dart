@@ -1,13 +1,13 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:munch_login_application/state/bloc/authentication_bloc.dart';
+import 'package:munch_login_application/state/bloc/auth/authentication_bloc.dart';
 import 'package:munch_login_application/models/Employee.dart';
 import 'package:pin_code_fields/pin_code_fields.dart';
 
 
-import '../../state/bloc/authentication_event.dart';
-import '../../state/bloc/authentication_state.dart';
+import '../../state/bloc/auth/authentication_event.dart';
+import '../../state/bloc/auth/authentication_state.dart';
 import '../../constants/app_colors.dart';
 import '../../constants/app_tex_styles.dart';
 import 'numeric_keyboard.dart';
